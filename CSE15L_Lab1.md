@@ -47,4 +47,3 @@
 ![Image](file:///Users/altairlanceaguelo/Desktop/Screen%20Shot%202023-01-15%20at%208.09.28%20PM.png)
 - Command to log out: 
   - Press Ctrl + D, then input exit
-![Image]([http://url/a.png](https://pyxis.nymag.com/v1/imgs/d6a/dc7/4a5001b7beea096457f480c8808572428b-09-roll-safe.2x.h473.w710.jpg))
