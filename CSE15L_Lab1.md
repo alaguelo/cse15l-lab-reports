@@ -13,7 +13,7 @@
 ## Step 2: Visual Studio Code Setup
 - If you already have VSCode installed on your own computer or you want to use the lab's computers, you can skip this step
 - Visit the [*Visual Studio Code website,*](https://code.visualstudio.com/) which should look like this: 
-![Image](file:///Users/altairlanceaguelo/Desktop/Screen%20Shot%202023-01-15%20at%205.36.13%20PM.png)
+![Image](file:///Users/altairlanceaguelo/Desktop/Screen%20Shot%202023-01-15%20at%205.36.13%20PM.PNG)
   - Follow the instructions for your specified operating system (Mac or Windows). The download page should look like this:
 ![Image](file:///Users/altairlanceaguelo/Desktop/Screen%20Shot%202023-01-15%20at%205.57.17%20PM.png)
 - Once downloaded, open Visual Studio Code and it should look something like this: 
