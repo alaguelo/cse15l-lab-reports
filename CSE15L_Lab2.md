@@ -35,6 +35,28 @@ public void testReverseInPlace(){
 - Output of second test above:
 ![Screen Shot 2023-01-30 at 12 50 55 PM](https://user-images.githubusercontent.com/122497078/215592139-0bbb73bf-c8d2-4bd5-9cd4-bd7786cd6d80.png)
 
+-**Bug Fix:**
+-Before Fix:
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+-After Fix:
+```
+static void reverseInPlace(int[] arr) {
+    int temp = 0;
+    for(int i = 0; i < arr.length/2; i += 1) {
+      temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+```
+  
+
 
 
 
