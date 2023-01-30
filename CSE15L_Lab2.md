@@ -11,4 +11,30 @@ number for hosting the webserver.
 - The URI value changes as the url that is passed through the `handleRequest` method changes. It depends on what the user types in as they visit the webserver.
 The string value changes for the path within the url as users add different words to the webserver. Once the webserver is created, the string argument for 
 the port number does not change, but for every webserver creation, the port number argument can be changed.
-## Part 2: Lab 3 Bugs
+## Part 2: Lab 3 Bugged Reverse Array
+-**Failure Inducing Input:**
+```
+@Test
+public void testReverseInPlace2(){
+  int[] input2 = {1,2,3,4,5};
+  ArrayExamples.reverseInPlace(input2);
+  assertArrayEquals(new int[]{5,4,3,2,1}, input2);
+}
+```
+-**Non-Failure Inducing Input:**
+```
+@Test
+public void testReverseInPlace(){
+  int[] input3 = {3};
+  ArrayExamples.reverseInPlace(input3);
+   assertArrayEquals(new int[]{3}, input3);
+```
+-**Symptom:**
+- Output of first test above:
+![Screen Shot 2023-01-30 at 12 47 48 PM](https://user-images.githubusercontent.com/122497078/215591539-3ed30ee4-8d6d-4fb9-9110-2baff6c5a390.png)
+- Output of second test above:
+![Screen Shot 2023-01-30 at 12 50 55 PM](https://user-images.githubusercontent.com/122497078/215592139-0bbb73bf-c8d2-4bd5-9cd4-bd7786cd6d80.png)
+
+
+
+
