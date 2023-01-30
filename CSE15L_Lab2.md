@@ -33,6 +33,7 @@ public void testReverseInPlace(){
 - Output of first test above:
 ![Screen Shot 2023-01-30 at 12 47 48 PM](https://user-images.githubusercontent.com/122497078/215591539-3ed30ee4-8d6d-4fb9-9110-2baff6c5a390.png)
 - Output of second test above:
+![Screen Shot 2023-01-30 at 12 50 55 PM](https://user-images.githubusercontent.com/122497078/215610908-ce8a9848-2db3-424c-89dd-e1c4ed2edb3d.png)
 
 -**Bug Fix:**
 -Before Fix:
